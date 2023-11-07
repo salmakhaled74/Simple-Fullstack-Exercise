@@ -11,15 +11,19 @@ This sample web app consists of:
 ### Running the Backend
 
 ```bash
-cd service && npm run start
+cd service && npm install && npm run start
 ```
 n.b. The backend is being watched by nodemon (i.e. this means **you only have to run start once** and it will automatically rebuild if you edit any of the javascript or json files.)
 
 ### Running the Frontend
 ```bash
-cd client && npm run start
+cd client && npm install &&  npm run start
 ```
 n.b. The frontend is also being watched by the react-script, any changes to any of its sources will also automatically rebuild the frontend so **you only have to run start once**.
+
+### How things should look:
+![image](https://github.com/idodin/Simple-Fullstack-Exercise/assets/22532262/88e5239a-3789-436f-b11e-0034822b7538)
+
 
 ## Exercise Instructions:
 
