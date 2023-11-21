@@ -96,3 +96,7 @@ input[type="text"] {
 .add-button:hover {
   background-color: #31b0d5;
 }
+
+.error-message{
+  color: #c03a3a;
+}
